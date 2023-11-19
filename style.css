@@ -11,6 +11,23 @@ header {
     padding: 10px;
 }
 
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
 #car-list {
     display: flex;
     flex-wrap: wrap;
